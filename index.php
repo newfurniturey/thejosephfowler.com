@@ -7,7 +7,7 @@
 		<meta name="keywords" content="Joseph Fowler, Software Engineer, Software Developer, Application Developer, Programmer, newfurniturey" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		
-		<link href="http://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet" type="text/css" />
+		<link href="http<?php echo !empty($_SERVER['HTTPS']) ? 's' : ''; ?>://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet" type="text/css" />
 		<link href="styles/main.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
@@ -55,5 +55,8 @@
 			<div class="backgroundRunner"></div>
 		</div>
 		
+		<!--
+		<?php print_r($_SERVER); ?>
+		-->
 	</body>
 </html>
