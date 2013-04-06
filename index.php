@@ -54,9 +54,6 @@
 			
 			<div class="backgroundRunner"></div>
 		</div>
-		
-		<!--
-		<?php print_r($_SERVER); ?>
-		-->
+
 	</body>
 </html>
