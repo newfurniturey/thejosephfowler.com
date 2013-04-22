@@ -113,7 +113,7 @@ li.bottomRight {
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	background-image: url(images/empty.gif);
+	background-image: url(/images/empty.gif);
 }
 
 .block a span {
