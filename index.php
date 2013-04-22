@@ -1,3 +1,6 @@
+<?php
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/config.inc.php');
+?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -11,7 +14,8 @@
 		<link href="styles/main.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		
+		<?php require(DOC_ROOT . '/includes/analytics.inc.php'); ?>
+
 		<div class="mainContainer">
 			<div class="titleContainer">
 				<h1>Joseph Fowler</h1>
